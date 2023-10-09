@@ -13,8 +13,8 @@ model = make_pipeline(
 )
 
 # Create the GridSearchCV object
-grid_search = GridSearchCV(model
-                           param_grid
+grid_search = GridSearchCV(model,
+                           param_grid,
                            cv=5,
                            scoring='neg_mean_squared_error',
                            verbose=1)
