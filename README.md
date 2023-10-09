@@ -28,3 +28,6 @@ The grid search looks for polynomial degrees and alphas that most accurately cor
 With the previous findings that the data does appear to be quite linear, one familiar with polynomials would likely assume this polynomial will not be too complex.
 The alpha (the other variable the grid search will identify), is a sort of punishment of the model. It corresponds to how "harsh" of a punishment that the model will give inaccuracies. 
 
+So, after implementing a grid search on the hyperparameters (alpha and polynomial degree), the model achieved a coefficient of determination of 0.87 and a mean square error of 11.01. Afterwards, the model prints the function and outputs a graph through matplotlib. A simple linear regression line in red will also generate to show a simplification of the data visualization.
+
+
