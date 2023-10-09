@@ -36,4 +36,10 @@ The alpha (the other variable the grid search will identify), is a sort of punis
 
 So, after implementing a grid search on the hyperparameters (alpha and polynomial degree), the model achieved a coefficient of determination of 0.87 and a mean square error of 11.01. Afterwards, the model prints the function and outputs a graph through matplotlib. A simple linear regression line in red will also generate to show a simplification of the data visualization.
 
+In conclusion, I was satisfied with the CoD at 0.87, but further tuning could yield more favorable results. The following are examples of how to further increase association:
+- collect more data
+- reweigh the features and determine if all features are vital to defining the relationship
+- consider any missing or incomplete values
+- add additional parameters to the grid search to scan
+- consider alternate regression models
 
