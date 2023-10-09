@@ -1,5 +1,6 @@
 # Add this code to main.py to determine the best hyperparameters
 # Define the parameter grid for the grid search
+from sklearn.model_selection import GridSearchCV
 param_grid = {
     'polynomialfeatures__degree': [0, 1, 2, 3, 4],  # degrees of polynomial
     'ridge__alpha': [0.1, 0.5, 1.0, 5.0, 10.0, 20.0]  # alpha values to explore
