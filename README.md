@@ -1,7 +1,7 @@
 # Polynomial_Ridge_Regression
 Polynomial Ridge Regression model to predict housing prices from the Boston median housing index dataset
 
-
+## Initial Model and Results:
 When I first loaded the dataset, I immediately wrote and ran a linear regression model to determine the coefficient of determination (R-Squared) and the class weights.
 This is the result from that print:
 - Mean Squared Error (with standardized features): 23.20
